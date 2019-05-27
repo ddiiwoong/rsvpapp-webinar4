@@ -22,6 +22,7 @@ jobs:
             sudo apt-get install python3.5
             sleep 5
             python -m pip install -r requirements.txt
+          no_output_timeout: 20m
 
       # run tests!
       # this example uses Django's built-in test-runner
