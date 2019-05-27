@@ -18,7 +18,7 @@ client = MongoClient(MONGODB_HOST, 27017)
 db = client.rsvpdata
 
 class RSVP(object):
-    """Simple Model class for RSVP"""
+    """Simple Model class for RSVP """
     def __init__(self, name, email, _id=None):
         self.name = name
         self.email = email
