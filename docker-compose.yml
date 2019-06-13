@@ -17,11 +17,11 @@ services:
     - "5000:5000"
    environment:
     MONGODB_HOST: mongodb
-    LINK: http://www.meetup.com/cloudyuga/
-    TEXT1: CloudYuga 
-    TEXT2: Garage RSVP!
-    LOGO: https://raw.githubusercontent.com/cloudyuga/rsvpapp/master/static/cloudyuga.png
-    COMPANY: CloudYuga Technology Pvt. Ltd.
+    LINK: http://www.sk.co.kr
+    TEXT1: SK
+    TEXT2: Cloud Meetup!
+    LOGO: https://www.sk.co.kr/lib/images/desktop/media/ci_cont02_img01.png
+    COMPANY: SK HOLDINGS
    networks:
     - rsvpnet
 
