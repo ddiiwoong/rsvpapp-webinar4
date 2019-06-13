@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: rsvp-app
-        image: nkhare/rsvpapp:prod
+        image: ddiiwoong/rsvpapp:cfc42ff9599897c2c068925433f67602139c44f4
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
@@ -37,7 +37,7 @@ metadata:
   labels:
     app: rsvp
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 80
     targetPort: web-port
